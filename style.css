@@ -174,7 +174,7 @@ nav ul li a {
 
 main {
     height: 75vh;
-    background: url(img/fundo.jpg);
+    background: url(img/fundo\ backgraund.jpg);
     background-size: cover;
     background-position: center;
     color: var(--cor1);
