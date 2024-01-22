@@ -41,7 +41,8 @@ body {
 
 .container {
     margin: 0 auto;
-    color: #000;
+    color: var(--cor1);
+
 }
 
 
@@ -94,6 +95,7 @@ body {
     justify-content: space-around;
 }
 
+
 .card {
     margin-top: 20px;
     width: 300px;
@@ -105,7 +107,9 @@ body {
 }
 
 .card img {
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+    width: 300px;
+    height: 168px;
 }
 
 .card h3 {
@@ -121,6 +125,12 @@ body {
 .card a {
     padding: 10px 100px;
     border: 0;
+}
+.contato{
+    color: #000;
+}
+.endereco{
+    color: #000;
 }
 
 
@@ -174,7 +184,7 @@ nav ul li a {
 
 main {
     height: 75vh;
-    background: url(img/fundo\ backgraund.jpg);
+    background: url(img/vista-superior-de-rolos-de-sushi-no-prato-com-molho-e-copia-de-espaco.jpg);
     background-size: cover;
     background-position: center;
     color: var(--cor1);
@@ -276,6 +286,10 @@ footer {
     text-decoration: none;
 }
 
+.titulo5{
+    text-align: center;
+    font-size: 2.0em;
+}
 
 /*SMARTPHONE LANDSCAPE*/
 @media (min-width: 576px) {
